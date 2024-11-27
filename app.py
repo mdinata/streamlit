@@ -5,6 +5,8 @@ import pandas as pd
 import streamlit as st
 st.set_page_config(layout='wide')
 
+st.info("This app is purely for educational purpose only, not for commercial")
+
 @st.cache_data
 def get_data():
     data = pd.read_excel('dataset.xlsx')
