@@ -10,8 +10,6 @@
 - [Apakah kelas privat lebih baik dari kelas umum?](#item-6)
 - [Bahasa pemrograman apa yang diajarkan untuk anak-anak?](#item-7)
 - [Bagaimana tentang hari dan jam kelas?](#item-8)
-- [Berapa biaya untuk kelas coding?](#item-9)
-- [Bagaimana simulasi biaya?](#item-10)
 - [Waktu belajar](#item-11)
 - [Kurikulum](#item-12)
 - [Free Trial](#item-13)
@@ -59,37 +57,12 @@ Schedule kelas mulai Juni 2024. 🟢 slot kelas available, 😄 kelas terjadwal.
 
 | Hari dan jam | 7:30    | 9:00    | 10:00          | 11:00   | 13:00   | 14:00   | 15:00          | 18:00          | 19:00          |
 |--------------|---------|---------|----------------|---------|---------|---------|----------------|----------------|----------------|
-| Senin        |         |         |                |         |         |         |                | :green_circle: | :green_circle: |
-| Selasa       |         |         |                |         |         |         |                | :smile:        | :green_circle: |
-| Rabu         |         |         |                |         |         |         |                | :green_circle: | :green_circle: |
-| Kamis        |         |         |                |         |         |         |                | :green_circle: | :green_circle: |
-| Jumat        |         |         |                |         |         |         |                | :green_circle: | :green_circle: |
-| Sabtu        | :smile: | :smile: | :green_circle: | :smile: | :smile: | :smile: | :green_circle: |                |                |
-
-
-<a id="item-9"></a>
-## Berapa biaya untuk kelas coding?
-Biaya peserta baru sejak Juni 2024. Biaya belum termasuk pembelian equipment untuk topik aplikasi Microcontroller, Game Console, Robotic dan IoT. [Back](#item-0)
-
-| Kelas Umum          | Aplikasi                                 | Biaya per kelas | Biaya per 1 term = 10x |
-|---------------------|------------------------------------------|-----------------:|------------------------:|
-| Scratch             | Games, Animasi, Musik                    | 80,000          |  800,000               |
-| Python Beginner     | Games, Desktop, Microcontroller          | 90,000          |  900,000               |
-| Python Intermediate | Game Console, Robotic,                   | 95,000          |  950,000               |
-| Python Advanced     | IoT, Data Analysis, Computer Vision      | 100,000         |  1,000,000             |
-
-<a id="item-10"></a>
-## Bagaimana simulasi biaya?
-[Back](#item-0)
-
-| Simulasi Biaya                | Jumlah (Rp.) | Catatan                    |
-|-------------------------------|--------------:|----------------------------|
-| Biaya pendaftaran             |  200,000     | Bayar 1x                   |
-| Biaya 1 term (10x sesi kelas) |  800,000     | Contoh untuk kelas Scratch |
-| Buku                          |  60,000      | Buku panduan               |
-| Total biaya pertama           |  1,060,000   |                            |
-|                               |              |                            |
-| Biaya term selanjutnya        |  800,000     | untuk 10 term berikutnya   |
+| Senin        |         |         |                |         |         |         |                | 🟢 | 🟢 |
+| Selasa       |         |         |                |         |         |         |                | :smile:        | 🟢 |
+| Rabu         |         |         |                |         |         |         |                | 🟢 | 🟢 |
+| Kamis        |         |         |                |         |         |         |                | 🟢 | 🟢 |
+| Jumat        |         |         |                |         |         |         |                | 🟢 | 🟢 |
+| Sabtu        | :smile: | :smile: | 🟢 | :smile: | :smile: | :smile: | 🟢 |                |                |
 
 
 <a id="item-11"></a>
