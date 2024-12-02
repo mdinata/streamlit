@@ -21,7 +21,7 @@ with tab2:
     with st.expander("Marketplace"):
         @st.cache_data
         def get_data():
-            data = pd.read_excel('dataset.xlsx')
+            data = pd.read_excel('dataset_marketplace.xlsx')
             return data
         
         data = get_data()
