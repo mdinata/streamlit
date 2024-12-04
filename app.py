@@ -30,11 +30,15 @@ with tab2:
         category = sorted(list(data['category'].unique()),reverse=False)
         product = sorted(list(data['product'].unique()),reverse=False)
     
-        with st.sidebar:
-            st.subheader("Search")
-            filter_store = st.selectbox("Filter Store",options=stores,index=None)
-            filter_category = st.selectbox("Filter Category",options=category, index=None)
-            filter_product = st.selectbox("Filter Product",options=product,index=None)
+        with st.container(border=True):
+            st.write("Filters")
+            col1,col2,col3,col4 = st.columns(4)
+            with col1:
+                filter_store = st.selectbox("Filter Store",options=stores,index=None)
+            with col2:
+                filter_category = st.selectbox("Filter Category",options=category, index=None)
+            with col3:
+                filter_product = st.selectbox("Filter Product",options=product,index=None)
         
             if filter_category is None:
                 min_price=data['price'].min()
@@ -42,11 +46,11 @@ with tab2:
             else:
                 min_price = data[data['category'] == filter_category]['price'].min()
                 max_price = data[data['category'] == filter_category]['price'].max()
-        
-            filter_price = st.slider("Price Filter",
-                                     min_value=min_price,
-                                     max_value=max_price,
-                                     value=max_price)
+            with col4:   
+                filter_price = st.slider("Price Filter",
+                                        min_value=min_price,
+                                        max_value=max_price,
+                                        value=max_price)
 
         def filter_data(data):
             filtered_data = data.copy()
