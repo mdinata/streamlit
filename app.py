@@ -5,7 +5,8 @@ import pandas as pd
 import streamlit as st
 st.set_page_config(layout='wide')
 
-st.title("Colab Coding Streamlit App")
+with st.sidebar():
+    st.subheader("Colab Coding")
 
 tab1,tab2 = st.tabs(['Home','Project Showcase'])
 
