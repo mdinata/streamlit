@@ -7,6 +7,7 @@ st.set_page_config(layout='wide')
 
 with st.sidebar:
     st.subheader("Colab Coding")
+    st.write("Ruko Magnetica Square A21\nLippo Cikarang")
 
 tab1,tab2 = st.tabs(['Home','Project Showcase'])
 
